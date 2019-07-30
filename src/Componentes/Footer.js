@@ -2,7 +2,9 @@ import React from 'react';
 
 const Footer = props => {
     return (
-        <div> Implementação do chatbot </div>
+        <div className='footer'> 
+            Implementação do chatbot 
+        </div>
     )
 }
 

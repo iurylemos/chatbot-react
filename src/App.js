@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
         <Header></Header>
+      <div className='conteudo' >
         <Home></Home>
         <Chatbot></Chatbot>
+      </div>
         <Footer></Footer>
     </div>
   );

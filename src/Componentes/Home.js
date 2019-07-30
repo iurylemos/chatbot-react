@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 class Home extends Component {
     render() {
         return(
-        <div>
+        <div className='home'>
              <p>
             Edit <code>src/App.js</code> and save to reload.
             </p>
