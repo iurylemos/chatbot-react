@@ -1,0 +1,27 @@
+[debug] [2019-07-31T22:09:45.858Z] ----------------------------------------------------------------------
+[debug] [2019-07-31T22:09:45.861Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\f1807109\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-07-31T22:09:45.861Z] CLI Version:   7.2.2
+[debug] [2019-07-31T22:09:45.861Z] Platform:      win32
+[debug] [2019-07-31T22:09:45.861Z] Node Version:  v10.16.0
+[debug] [2019-07-31T22:09:45.862Z] Time:          Wed Jul 31 2019 19:09:45 GMT-0300 (GMT-03:00)
+[debug] [2019-07-31T22:09:45.862Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-31T22:09:45.869Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-31T22:09:45.869Z] > authorizing via signed-in user
+[debug] [2019-07-31T22:09:45.869Z] [iam] checking project chatbot-lanlink for permissions ["firebase.projects.get"]
+[debug] [2019-07-31T22:09:45.871Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-31T22:09:45.871Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-31T22:09:46.259Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-31T22:09:46.302Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chatbot-lanlink:testIamPermissions  
+
+[debug] [2019-07-31T22:09:47.524Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-31T22:09:47.528Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chatbot-lanlink  
+ 
+[debug] [2019-07-31T22:09:48.986Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[debug] [2019-07-31T22:09:49.027Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chatbot-lanlink/adminSdkConfig  
+ 
+[debug] [2019-07-31T22:09:50.448Z] <<< HTTP RESPONSE 200
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\f1807109\Documents\projetos-watson\chatbot-react\functions" for Cloud Functions...

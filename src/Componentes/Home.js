@@ -7,7 +7,7 @@ class Home extends Component {
         return(
         <div className='home'>
              <p>
-                ChatBot React
+                ChatBot React para Lanlink
             </p>
             <a
                 className="App-link"

@@ -1,0 +1,19 @@
+/* chat conteudo que é responsável por cuidar de tudo */
+.chat-conteudo {
+    display: grid;
+    grid-template-rows: 60px auto 70px;
+    padding: 5px;
+    height: calc(100vh - 88px);
+}
+
+.chat-header {
+    text-align: center;
+}
+
+.chat-conversa {
+
+}
+
+.chat-mensagem {
+
+}

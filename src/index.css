@@ -13,38 +13,39 @@ code {
 }
 
 .header {
+  grid-area: header;
   background-color: darkslategray;
   text-align: center;
   color: aliceblue;
-  padding: 60px;
+  height: 50px;
 }
 
 .home {
-  flex: 70%;
+  grid-area: home;
   background-color: white;
-  padding: 20px;
 }
 
 .chatbot {
-  flex: 30%;
+  grid-area: chatbot;
   background-color: #f1f1f1;
-  padding: 20px;
-  position: fixed;
-  right: 0;
-  height: 100%;
-  width: 25%;
+  height: calc(100vh - 88px);
 }
 
 .footer {
-  padding: 20px;
+  grid-area: footer;
   text-align: center;
   background-color: red;
-  position: fixed;
+  height: 35px;
   width: 100%;
+  padding: 5px;
   bottom: 0;
+  position: absolute;
 }
 
 .conteudo {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-areas: 
+    'header header header header'
+    'home home home chatbot'
+    'footer footer footer footer';
 }
