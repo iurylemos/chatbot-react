@@ -21,20 +21,27 @@ code {
 
 .home {
   flex: 70%;
-  background-color: aqua;
+  background-color: white;
   padding: 20px;
 }
 
 .chatbot {
   flex: 30%;
-  background-color: blue;
+  background-color: #f1f1f1;
   padding: 20px;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  width: 25%;
 }
 
 .footer {
   padding: 20px;
   text-align: center;
   background-color: red;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 .conteudo {

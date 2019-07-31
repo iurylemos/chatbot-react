@@ -7,7 +7,7 @@ class Home extends Component {
         return(
         <div className='home'>
              <p>
-            Edit <code>src/App.js</code> and save to reload.
+                ChatBot React
             </p>
             <a
                 className="App-link"
