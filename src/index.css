@@ -29,12 +29,19 @@ code {
   flex: 30%;
   background-color: blue;
   padding: 20px;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  width: 25%;
 }
 
 .footer {
   padding: 20px;
   text-align: center;
   background-color: red;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 .conteudo {
