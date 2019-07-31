@@ -25,3 +25,41 @@
 [debug] [2019-07-31T22:09:50.448Z] <<< HTTP RESPONSE 200
 [info] +  functions: Emulator started at http://localhost:5000
 [info] i  functions: Watching "C:\Users\f1807109\Documents\projetos-watson\chatbot-react\functions" for Cloud Functions...
+[debug] [2019-07-31T22:09:51.383Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions","node_version":"10.16.0"}
+[debug] [2019-07-31T22:09:51.384Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-07-31T22:09:51.386Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-07-31T22:09:51.388Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-07-31T22:09:51.388Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[conversa]: http function initialized (http://localhost:5000/chatbot-lanlink/us-central1/conversa).
+[debug] [2019-07-31T22:10:06.652Z] Accepted request GET /chatbot-lanlink/us-central1/conversa --> conversa
+[debug] [2019-07-31T22:10:07.292Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions","node_version":"10.16.0"}
+[info] i  functions: Beginning execution of "conversa"
+[debug] [2019-07-31T22:10:07.292Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-07-31T22:10:07.298Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2019-07-31T22:10:07.300Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-07-31T22:10:07.301Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2019-07-31T22:10:07.520Z] [runtime-status] Trigger "conversa" has been found, beginning invocation! {}
+[debug] [2019-07-31T22:10:07.521Z] [runtime-status]  {"httpsTrigger":{},"name":"conversa","entryPoint":"conversa"}
+[debug] [2019-07-31T22:10:07.521Z] [runtime-status] Running conversa in mode HTTPS {}
+[debug] [2019-07-31T22:10:07.540Z] {"socketPath":"\\\\?\\pipe\\C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\9056"}
+[debug] [2019-07-31T22:10:07.547Z] [functions] Runtime ready! Sending request! {"socketPath":"\\\\?\\pipe\\C:\\Users\\f1807109\\Documents\\projetos-watson\\chatbot-react\\functions\\9056"}
+[debug] [2019-07-31T22:10:07.561Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-07-31T22:10:07.612Z] [runtime-status] Ephemeral server survived. {}
+[info] >  watson disse:  { intents: [],
+[info] >    entities: [],
+[info] >    input: {},
+[info] >    output:
+[info] >     { generic: [ [Object] ],
+[info] >       text:
+[info] >        [ 'Olá. Seja bem vindo ao Chatbot Lanlink, qual o seu primeiro nome por favor?' ],
+[info] >       nodes_visited: [ 'Bem-vindo' ],
+[info] >       log_messages: [] },
+[info] >    context:
+[info] >     { conversation_id: '828e9649-a10a-4d00-ba8b-78e229661df8',
+[info] >       system:
+[info] >        { initialized: true,
+[info] >          dialog_stack: [Array],
+[info] >          dialog_turn_counter: 1,
+[info] >          dialog_request_counter: 1,
+[info] >          _node_output_map: [Object] } } }
+[info] i  functions: Finished "conversa" in ~1s
